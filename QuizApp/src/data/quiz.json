@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "img": "https://s26378.pcdn.co/wp-content/uploads/math_is_hard.jpg",
+        "name": "Math",
+        "questions": [
+            {
+                "id": 1,
+                "text": "(8 * 2)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "16",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "3",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "0",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "text": "8 + 2(2 + 2)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "16",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "18",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "3",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "10",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+ 
+    },
+    {
+        "id": 2,
+        "img": "https://png.pngtree.com/thumb_back/fh260/background/20230302/pngtree-dna-education-biology-image_1739954.jpg",
+        "name": "Biology",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is a cell",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "It is a basic functional unit",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "The brain",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "The spatula",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "text": "What is a leave",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Part of a tree",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "A branch",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "None of the above",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "All of the above",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+ 
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Lambo",
+        "price": 150000,
+        "year": 2020,
+        "contact": {
+            "dealer": "Liam1",
+            "number": "932-313-74882"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Benz",
+        "price": 122000,
+        "year": 2013,
+        "contact": {
+            "dealer": "Liam2",
+            "number": "6567-313-74882"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Sazuki",
+        "price": 3450000,
+        "year": 2015,
+        "contact": {
+            "dealer": "Liam3",
+            "number": "923-313-74882"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Toyotak",
+        "price": 900000,
+        "year": 2022,
+        "contact": {
+            "dealer": "Liam4",
+            "number": "932-313-74882"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Keke",
+        "price": 23400,
+        "year": 20119,
+        "contact": {
+            "dealer": "Liam5",
+            "number": "932-483-74882"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Corona",
+        "price": 4550000,
+        "year": 2015,
+        "contact": {
+            "dealer": "Liam6",
+            "number": "932-313-7322"
+        }
+    }
+]
