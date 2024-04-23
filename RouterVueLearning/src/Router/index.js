@@ -5,6 +5,7 @@ import AboutView from "../views/AboutView.vue"
 import CarView from "../views/CarView.vue"
 import ContactView from "../views/ContactView.vue"
 import NotFoundView from "../views/404View.vue"
+import DonationView from "./views/DonationView.vue"
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,11 @@ const router = createRouter({
             path: "/:catchall(.*)*",
             name: "Not found",
             component: NotFoundView
+        },
+        {
+            path: "/donations",
+            name: "donations",
+            component: DonationView
         }
     ]
 
