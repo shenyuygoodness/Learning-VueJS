@@ -14,4 +14,7 @@ import { RouterLink } from 'vue-router';
         font-weight: 900;
         color: gold;
     }
+    .active-class{
+        text-decoration: none;
+    }
 </style>

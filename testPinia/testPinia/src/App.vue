@@ -2,6 +2,9 @@
 import HelloWorld from './views/HomeView.vue'
 import TheWelcome from './views/AboutView.vue'
 import {RouterView, RouterLink} from 'vue-router'
+
+import { useAuthStore } from './stores/auth';
+const authStore = useAuthStore(); 
 </script>
 
 <template>

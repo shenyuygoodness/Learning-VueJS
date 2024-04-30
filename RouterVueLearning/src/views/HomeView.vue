@@ -10,7 +10,7 @@ import cars from "../data/cars.json"
       <div class="cars">
         <RouterLink :to="`/cars/${car.id}`"  v-for="car in cars" :key="cars.id" href="">{{car.name}}
       </RouterLink>
-        
+      <button><RouterLink to="/donations"> Donate to someone</RouterLink></button>
       </div>
     </div>
   </template>

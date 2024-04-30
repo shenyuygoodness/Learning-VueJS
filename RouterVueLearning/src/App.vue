@@ -14,7 +14,7 @@ name: "home",
     <button @click="randomState = 'hello there'">Click me</button>
     <Nav />
     <RouterView />
-    <button><RouterLink to="/donations"> Donate to someone</RouterLink></button>
+    
   </div>
 </template>
 

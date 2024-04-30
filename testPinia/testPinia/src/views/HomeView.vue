@@ -1,11 +1,10 @@
 <script setup>
-    import { useCounterStore } from '@/stores/counter';
-
-    const store = useCounterStore()
-    console.log(store)
+import Counter from "@/components/Counter.vue"
+ 
 </script>
 <template>
     <div class="container">
         <p>Hello everyone welcome</p>
+        <Counter />
     </div>
 </template>
