@@ -1,23 +1,22 @@
 <script setup>
+import { computed } from 'vue';
 import { useCounterStore } from '@/stores/counter';
 
 const store = useCounterStore();
 const props = defineProps(['count'])
 const count = props.count
 
-function Increment() {
-    store.count++;
-}
-function decrement() {
-    store.count--;
-}
+// const countDigitLength = computed(() => store.count.toString().length)
 </script>
 
 <template>
     <div>
-        <button @click="Increment">+</button>
+        <button @click="store.increment">+</button>
         Count Value : {{store.count}}
-        <button @click="decrement">-</button>
+        <button @click="store.decrement">-</button>
+
+        <br />
+        Counter moved to {{store.countDigitLength}} Length
     </div>
 </template>
 <!-- 
